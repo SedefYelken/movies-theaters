@@ -1,0 +1,12 @@
+.background{
+    background-color: rgb(136, 130, 130);
+}
+
+.style-img {
+    display: block;
+    width: 30%;
+}
+
+.movie-title{
+    font-size: 25px;
+}

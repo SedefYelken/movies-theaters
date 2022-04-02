@@ -1,0 +1,22 @@
+.img {
+    border-radius: 50%;
+    width: 140px;
+}
+
+.input-area {
+    width: 220px;
+    height: 25px;
+}
+
+.button{
+   width: 130px; 
+   height: 30px;
+   background-color: aliceblue;
+}
+
+.error-style{
+    color: rgb(228, 97, 97);
+    font-size: 15px;
+    text-align: left;
+}
+

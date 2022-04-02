@@ -1,0 +1,40 @@
+{
+    "movies": [
+        {
+            "id":1,
+            "name":"Inception (2010) – 8.7",
+            "imgURL":"https://www.neoldu.com/d/other/en-iyi-filmler-135.jpg",
+            "description": "Christopher Nolan proved himself to be one of the most ambitious filmmakers around with his mind-bending crime film, Inception. The film follows a team of thieves with the ability to enter people's dreams and steal their ideas. Leonardo DiCaprio stars as the team's leader, looking to pull off one last score."
+        },
+        {
+            "id":2,
+            "name":"Life Is Beautiful (1997) - 8.6",
+            "imgURL":"https://m.media-amazon.com/images/M/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL75_UX190_CR0,1,190,281_.jpg",
+            "description":"It is a very difficult thing for a movie to combine humor and an uplifting tone inside a story that is also filled with tragedy and heartbreak. But that is something that Life is Beautiful accomplished in the minds of many fans which explains its popular reputation."
+        },
+        {
+            "id":3,
+            "name":"The Shawshank Redemption (1994) – 9.3",
+            "imgURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAytwwky2KwWN9O65EpPRnvs6Ue9GlmQKMcQ&usqp=CAU",
+            "description":"It's no surprise that the highest-ranked film of all time is also one of the most crowd-pleasing films of all time. It can be easy to assume that a story set inside a maximum-security prison would not have many pleasing moments, but The Shawshank Redemption manages to be a surprisingly uplifting tale."
+        },
+        {
+            "id":4,
+            "name":"The Lord Of The Rings - 8.9",
+            "imgURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQt-WBwXBIiDBa2KLwTZAjJRHF06O7Em05kA&usqp=CAU",
+            "description":"Few people thought adapting J.R.R. Tolkien's epic Lord of the Rings series for the big screen would be possible, but Peter Jackson proved them all wrong. With The Return of the King, Jackson managed to conclude one of the greatest film trilogies of all time in a truly satisfying way."
+        },
+        {
+            "id":5,
+            "name":"Forrest Gump (1994) – 8.7",
+            "imgURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuNZpt2DV5_GX-4c4x-Lgqd5qHbh83WPpPVw&usqp=CAU",
+            "description":"Tom Hanks created perhaps his most iconic film character of all time with the titular character in Forrest Gump. The film follows the many misadventures of a simple yet kind man as he inadvertently inserts himself into many of the biggest moments in American history."
+        },
+        {
+            "id":6,
+            "name":"The Dark Knight (2008) – 9.0",
+            "imgURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5rXqyeLsJeKKQFBqN_q66bDyZat0hiphOww&usqp=CAU",
+            "description":"The superhero genre might not get a lot of respect from most cinephiles, but Christopher Nolan's second Batman film proved they can deliver smart, epic, and thrilling movies."
+        }
+    ]
+}
