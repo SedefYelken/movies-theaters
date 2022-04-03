@@ -7,15 +7,13 @@
   width: 220px;
   height: 25px;
   margin-left: 40px;
-  display: inline-block
+  display: inline-block;
 }
 
-
-
 .textarea-style {
-    width: 220px;
-    height: 80px;
-    margin-left: 40px;
+  width: 220px;
+  height: 80px;
+  margin-left: 40px;
 }
 
 .label-area {
@@ -28,6 +26,7 @@
   height: 40px;
   background-color: rgb(179, 87, 1);
   font-size: 17px;
+  font-weight: bold;
 }
 
 .error-style {
@@ -37,14 +36,15 @@
 }
 
 .form-header {
-  background-color: #282c34;
+  background-color: rgb(136, 130, 130);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: left;
+  font-weight: bold;
   justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
   padding-left: 30px;
   padding-top: 100px;
 }

@@ -9,7 +9,7 @@ import {
   userInfoValue,
 } from "../../store/slices/userSlice";
 import { useSelector } from "react-redux";
-import './style.css'
+import "./style.css";
 
 const EditInformation = () => {
   const dispatch = useAppDispatch();
@@ -59,7 +59,7 @@ const EditInformation = () => {
   return (
     <form className="form-header" onSubmit={handleSubmit}>
       <div>
-      <label className="label-area">Name : </label>
+        <label className="label-area">Name : </label>
         <input
           className="input-area-edit"
           name="name"
@@ -106,7 +106,7 @@ const EditInformation = () => {
           <div className="error-style">*{errors.address}</div>
         ) : null}
       </div>
-      <div >
+      <div>
         <button type="submit" className="button-edit mt3" name="btnEdit">
           Edit Information
         </button>
