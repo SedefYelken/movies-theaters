@@ -32,7 +32,7 @@ const EditInformation = () => {
     },
     validationSchema: Yup.object().shape({
       name: Yup.string().required(),
-      email: Yup.string().email("Invalid email format").required("Required"),
+      email: Yup.string().email("Invalid email format").required(),
       phoneNumber: Yup.string()
         .required()
         .matches(/^[0-9]+$/, "Must be only digits")
@@ -58,18 +58,18 @@ const EditInformation = () => {
 
   return (
     <form className="form-header" onSubmit={handleSubmit}>
-      <div>
-        <label className="label-area">Name : </label>
+      <div className="item field">
+        <label className="label-area">Name </label>
         <input
           className="input-area-edit"
           name="name"
           onChange={handleChange}
           value={values.name}
         ></input>
-        {errors.name ? <div className="error-style">*{errors.name}</div> : null}
+        {errors.name ? <div className="error-style-edit">*{errors.name}</div> : null}
       </div>
-      <div className="mt3">
-        <label className="label-area">Email Address : </label>
+      <div className="mt3 item field">
+        <label className="label-area">Email Address </label>
         <input
           type="email"
           className="input-area-edit"
@@ -78,11 +78,11 @@ const EditInformation = () => {
           value={values.email}
         ></input>
         {errors.email ? (
-          <div className="error-style">*{errors.email}</div>
+          <div className="error-style-edit">*{errors.email}</div>
         ) : null}
       </div>
-      <div className="mt3">
-        <label className="label-area">Phone Number : </label>
+      <div className="mt3 item field">
+        <label className="label-area">Phone Number </label>
         <input
           className="input-area-edit"
           name="phoneNumber"
@@ -91,11 +91,11 @@ const EditInformation = () => {
           maxLength={11}
         ></input>
         {errors.phoneNumber ? (
-          <div className="error-style">*{errors.phoneNumber}</div>
+          <div className="error-style-edit">*{errors.phoneNumber}</div>
         ) : null}
       </div>
-      <div className="mt3">
-        <label className="label-area">Address : </label>
+      <div className="mt3 item field">
+        <label className="label-area">Address </label>
         <textarea
           className="textarea-style"
           name="address"
@@ -103,7 +103,7 @@ const EditInformation = () => {
           value={values.address}
         ></textarea>
         {errors.address ? (
-          <div className="error-style">*{errors.address}</div>
+          <div className="error-style-edit">*{errors.address}</div>
         ) : null}
       </div>
       <div>

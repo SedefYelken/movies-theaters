@@ -19,6 +19,7 @@
 .label-area {
   font-size: 15px;
   width: 100px;
+  flex: 0 0 150px;
 }
 
 .button-edit {
@@ -29,8 +30,8 @@
   font-weight: bold;
 }
 
-.error-style {
-  color: rgb(228, 97, 97);
+.error-style-edit {
+  color: rgb(107, 1, 1);
   font-size: 15px;
   text-align: left;
 }
@@ -47,4 +48,11 @@
   color: rgb(0, 0, 0);
   padding-left: 30px;
   padding-top: 100px;
+}
+
+.item.field {
+  display: flex;
+  margin-bottom: 6pt;
+  max-width: 650px;
+  min-width: 300px;
 }
