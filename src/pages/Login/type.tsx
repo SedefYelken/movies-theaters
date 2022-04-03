@@ -11,11 +11,15 @@ const Login = () => {
   const { handleSubmit, handleChange,  values, errors}= useFormik({
     initialValues:{
       name:'',
-      surname:'',
+      password:'',
     },
     validationSchema: Yup.object().shape({
       name: Yup.string().required(),
-      surname: Yup.string().required()
+      password: Yup.string()
+      .required()
+      .matches(/^[0-9]+$/, "Must be only digits")
+      .min(6, 'Must be exactly 6 digits')
+      .max(6, 'Must be exactly 6 digits')
     }),
     onSubmit: () => handleFormSubmit(),
   });
@@ -28,9 +32,6 @@ const Login = () => {
     sessionStorage.setItem('username', values.name);
   },[values.name])
 
-  useEffect(()=>{
-    sessionStorage.setItem('usersurname', values.surname);
-  },[values.surname])
 
   return (
     <form className='App App-header'  onSubmit={handleSubmit}>
@@ -40,8 +41,8 @@ const Login = () => {
         {errors.name ? <div className='error-style'>*{errors.name}</div> : null }
         </div>
         <div> 
-          <input className='input-area'  name='surname' placeholder='Enter Surname' onChange={handleChange} value={values.surname}></input>
-          {errors.surname ? <div className='error-style'>*{errors.surname}</div> : null }
+          <input type="password" className='input-area'  name='password' placeholder='Enter Password' onChange={handleChange} value={values.password} maxLength={6}></input>
+          {errors.password ? <div className='error-style'>*{errors.password}</div> : null }
         </div>
         <div>
           <button type='submit' className='button mt3' name='btnLogin' >Giriş Yap</button>

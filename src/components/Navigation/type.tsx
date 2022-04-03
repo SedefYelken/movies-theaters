@@ -8,7 +8,7 @@ const Navigation = () =>{
     <Navbar bg="dark" variant="dark">
       <Container>
         <Nav className="me-auto ul-style">
-          <p className="li-style">{sessionStorage.getItem('username') + ' ' + sessionStorage.getItem('usersurname')}</p>
+          <p className="li-style">{sessionStorage.getItem('username')}</p>
           <Nav.Link className="li-style" href="/movies">Movies</Nav.Link>     
           <Nav.Link className="li-style" href="/theaters">Theaters</Nav.Link>
           <Nav.Link className="li-style sign-out" href="/">Sign out</Nav.Link >
