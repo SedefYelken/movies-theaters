@@ -1,0 +1,50 @@
+.img {
+  border-radius: 50%;
+  width: 140px;
+}
+
+.input-area-edit {
+  width: 220px;
+  height: 25px;
+  margin-left: 40px;
+  display: inline-block
+}
+
+
+
+.textarea-style {
+    width: 220px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.label-area {
+  font-size: 15px;
+  width: 100px;
+}
+
+.button-edit {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(179, 87, 1);
+  font-size: 17px;
+}
+
+.error-style {
+  color: rgb(228, 97, 97);
+  font-size: 15px;
+  text-align: left;
+}
+
+.form-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 30px;
+  padding-top: 100px;
+}

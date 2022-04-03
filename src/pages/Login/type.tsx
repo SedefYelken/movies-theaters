@@ -37,8 +37,6 @@ const Login = () => {
   };
 
   useEffect(() => {
-    sessionStorage.setItem("username", values.name);
-
     dispatch(
       setUserInfo({
         userInfo: {
